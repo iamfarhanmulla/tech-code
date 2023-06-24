@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tech-code/static/css/main.162569c5.css",
+    "main.js": "/tech-code/static/js/main.c443b176.js",
+    "static/js/787.7ac271e5.chunk.js": "/tech-code/static/js/787.7ac271e5.chunk.js",
+    "index.html": "/tech-code/index.html",
+    "main.162569c5.css.map": "/tech-code/static/css/main.162569c5.css.map",
+    "main.c443b176.js.map": "/tech-code/static/js/main.c443b176.js.map",
+    "787.7ac271e5.chunk.js.map": "/tech-code/static/js/787.7ac271e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.162569c5.css",
+    "static/js/main.c443b176.js"
+  ]
+}
