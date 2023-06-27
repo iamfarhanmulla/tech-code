@@ -41,8 +41,14 @@ export default function TextForm(props) {
     <>
     <div className='Container1' style={{color:props.mode1==='dark'?'white':'#000000'}}>
         <h1>{props.heading}</h1>
-     <div className="spinner-border text-success" role="status">
+     <div className="spinner-border text-warning mx-2px" role="status">
         <span className="visually-hidden">Loading...</span>
+     </div>
+     <div class="spinner-border text-light" role="status">
+        <span class="visually-hidden">Loading...</span>
+     </div>
+     <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
      </div>
         <div className="mb">
         <label forhtml="my Text" className="form-label"></label>
@@ -54,7 +60,7 @@ export default function TextForm(props) {
         <button className='btn btn-outline-danger mx-1' onClick={handleClear}>Clear</button>
     </div>
     <div className="Container2 my-2" style={{color:props.mode1==='dark'?'white':'#000000'}}>
-        <h1>Your text summary</h1>
+        <h1>Your text summary :-</h1>
         <p>{text?.split(" ").length} words and {[text?.length]} characters</p>
         <h2>Preview :-</h2>
         <p>{text?.length>0?text:"Enter something in the textbox above to preview it here!"}</p>

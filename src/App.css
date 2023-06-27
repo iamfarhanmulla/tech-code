@@ -38,5 +38,63 @@
 }
 
 .navbar-brand {
-  color: rgb(248, 94, 94);
+  color: rgb(224, 46, 186);
 }
+/* responsive css style  */
+
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav li {
+  margin: 0 10px;
+}
+
+.navbar-nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Media query for mobile devices */
+@media(max-width: 768px) {
+  .navbar {
+    padding: 5px;
+  }
+  
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar-nav li {
+    margin: 10px 0;
+  }
+}
+
+.form-label{
+  color: rgb(255, 0, 43);
+}
+
+.curdapp{
+  margin: 50px;
+}
+
+.readapp{
+  margin: 40px;
+}
+
+/* .main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
